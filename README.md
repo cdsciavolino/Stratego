@@ -48,4 +48,4 @@ Our team created a simple, easy to use, Terminal-based version of *Stratego* in 
 * Ryan Feldman (*display.ml, main.ml*)
 
 ## **Screenshots**
-<img src="/screenshots/startBoard.png" width="300" /> <img src="/screenshots/intro.png" width="300" /> <img src="/screenshots/movement.png" width="300" /> <img src="/screenshots/conflict.png" width="300" /> 
+<img src="/screenshots/startBoard.png" width="375" /> <img src="/screenshots/intro.png" width="375" /> <img src="/screenshots/movement.png" width="375" /> <img src="/screenshots/conflict.png" width="375" /> 
