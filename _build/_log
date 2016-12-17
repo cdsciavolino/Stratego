@@ -1,0 +1,20 @@
+### Starting build.
+# Target: ai.mli.depends, tags: { extension:mli, file:ai.mli, ocaml, ocamldep, quiet }
+/Users/chrissciavolino/.opam/4.03.0/bin/ocamldep.opt -modules ai.mli > ai.mli.depends # cached
+# Target: board.mli.depends, tags: { extension:mli, file:board.mli, ocaml, ocamldep, quiet }
+/Users/chrissciavolino/.opam/4.03.0/bin/ocamldep.opt -modules board.mli > board.mli.depends # cached
+# Target: board.cmi, tags: { byte, compile, extension:mli, file:board.mli, interf, ocaml, quiet }
+/Users/chrissciavolino/.opam/4.03.0/bin/ocamlc.opt -c -o board.cmi board.mli # cached
+# Target: ai.cmi, tags: { byte, compile, extension:mli, file:ai.mli, interf, ocaml, quiet }
+/Users/chrissciavolino/.opam/4.03.0/bin/ocamlc.opt -c -o ai.cmi ai.mli # cached
+# Target: ai.ml.depends, tags: { extension:ml, file:ai.ml, ocaml, ocamldep, quiet }
+/Users/chrissciavolino/.opam/4.03.0/bin/ocamldep.opt -modules ai.ml > ai.ml.depends # cached
+# Target: ai.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:ai.cmo, file:ai.ml, implem, ocaml, quiet }
+/Users/chrissciavolino/.opam/4.03.0/bin/ocamlc.opt -c -o ai.cmo ai.ml # cached
+# Target: board.ml.depends, tags: { extension:ml, file:board.ml, ocaml, ocamldep, quiet }
+/Users/chrissciavolino/.opam/4.03.0/bin/ocamldep.opt -modules board.ml > board.ml.depends # cached
+# Target: board.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:board.cmo, file:board.ml, implem, ocaml, quiet }
+/Users/chrissciavolino/.opam/4.03.0/bin/ocamlc.opt -c -o board.cmo board.ml # cached
+# Target: ai.byte, tags: { byte, dont_link_with, extension:byte, file:ai.byte, link, ocaml, program, quiet }
+/Users/chrissciavolino/.opam/4.03.0/bin/ocamlc.opt board.cmo ai.cmo -o ai.byte
+# Compilation successful.
