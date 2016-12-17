@@ -47,3 +47,5 @@ Our team created a simple, easy to use, Terminal-based version of *Stratego* in 
 * Katie Gioioso (*ai.ml*)
 * Ryan Feldman (*display.ml, main.ml*)
 
+## **Screenshots**
+<img src="/README/startBoard.png" width="300" /> <img src="/README/intro.png" width=“300” /> <img src="/README/movement.png" width=“300” /> <img src="/README/conflict.png" width=“300” /> 
